@@ -3,7 +3,7 @@
 library(FME)
 
 library(readr)
-inoutfull <- read_csv("~/Dropbox (Personal)/Yale PhD/Dissertation/Chapter 2/animals_litterdecomp_plants/experimentaldataformodel.csv")
+inoutfull <- read_csv("experimentaldataformodel.csv")
 head(inoutfull)
 
 # Get the plotting functions need for displaying the results
